@@ -14,6 +14,13 @@
 		411059EC24C8A26D00AFE48F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059EB24C8A26D00AFE48F /* TableViewController.swift */; };
 		411059EE24C9D7D300AFE48F /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059ED24C9D7D300AFE48F /* CircularProgressView.swift */; };
 		411059F024CB4F8500AFE48F /* AppDelegate_back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059EF24CB4F8500AFE48F /* AppDelegate_back.swift */; };
+		41F403D124CDDD8500E88B48 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D024CDDD8500E88B48 /* AccountViewController.swift */; };
+		41F403D324D07C3C00E88B48 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D224D07C3C00E88B48 /* TokenStorage.swift */; };
+		41F403D524D07C6D00E88B48 /* SigninDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D424D07C6D00E88B48 /* SigninDelegate.swift */; };
+		41F403D724D07E6500E88B48 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D624D07E6500E88B48 /* StartupViewController.swift */; };
+		41F403D924D07EBB00E88B48 /* AfterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D824D07EBB00E88B48 /* AfterLoginViewController.swift */; };
+		41F403DB24D2B64200E88B48 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403DA24D2B64200E88B48 /* CustomButton.swift */; };
+		41F403DD24D31D8100E88B48 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403DC24D31D8100E88B48 /* TabBarController.swift */; };
 		555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AB1D0F0731003E84E3 /* AppDelegate.swift */; };
 		555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AD1D0F0731003E84E3 /* ViewController.swift */; };
 		555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C91AF1D0F0731003E84E3 /* Main.storyboard */; };
@@ -53,6 +60,13 @@
 		411059ED24C9D7D300AFE48F /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		411059EF24CB4F8500AFE48F /* AppDelegate_back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate_back.swift; sourceTree = "<group>"; };
 		41646E33247EB85B0082F410 /* コロログ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "コロログ.entitlements"; sourceTree = "<group>"; };
+		41F403D024CDDD8500E88B48 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		41F403D224D07C3C00E88B48 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		41F403D424D07C6D00E88B48 /* SigninDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninDelegate.swift; sourceTree = "<group>"; };
+		41F403D624D07E6500E88B48 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		41F403D824D07EBB00E88B48 /* AfterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginViewController.swift; sourceTree = "<group>"; };
+		41F403DA24D2B64200E88B48 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		41F403DC24D31D8100E88B48 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		49096635749B17B6D82CCA14 /* Pods_MobileAppwithPushNotificationsC4CCOVID19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileAppwithPushNotificationsC4CCOVID19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91A81D0F0731003E84E3 /* covsafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covsafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91AB1D0F0731003E84E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +164,13 @@
 				411059E924C89E0400AFE48F /* AddController.swift */,
 				411059ED24C9D7D300AFE48F /* CircularProgressView.swift */,
 				411059EF24CB4F8500AFE48F /* AppDelegate_back.swift */,
+				41F403D024CDDD8500E88B48 /* AccountViewController.swift */,
+				41F403D224D07C3C00E88B48 /* TokenStorage.swift */,
+				41F403D424D07C6D00E88B48 /* SigninDelegate.swift */,
+				41F403D624D07E6500E88B48 /* StartupViewController.swift */,
+				41F403D824D07EBB00E88B48 /* AfterLoginViewController.swift */,
+				41F403DA24D2B64200E88B48 /* CustomButton.swift */,
+				41F403DC24D31D8100E88B48 /* TabBarController.swift */,
 			);
 			path = MobileAppwithPushNotificationsC4CCOVID19;
 			sourceTree = "<group>";
@@ -350,12 +371,16 @@
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSPush/BMSPush.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMCloudAppID/IBMCloudAppID.framework",
+				"${BUILT_PRODUCTS_DIR}/JOSESwift/JOSESwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSPush.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMCloudAppID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JOSESwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,12 +430,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F403DB24D2B64200E88B48 /* CustomButton.swift in Sources */,
+				41F403D524D07C6D00E88B48 /* SigninDelegate.swift in Sources */,
 				555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */,
 				411059E824C81EF100AFE48F /* MapViewController.swift in Sources */,
+				41F403D924D07EBB00E88B48 /* AfterLoginViewController.swift in Sources */,
+				41F403D724D07E6500E88B48 /* StartupViewController.swift in Sources */,
+				41F403D124CDDD8500E88B48 /* AccountViewController.swift in Sources */,
 				555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */,
 				411059EC24C8A26D00AFE48F /* TableViewController.swift in Sources */,
 				411059EE24C9D7D300AFE48F /* CircularProgressView.swift in Sources */,
 				411059F024CB4F8500AFE48F /* AppDelegate_back.swift in Sources */,
+				41F403DD24D31D8100E88B48 /* TabBarController.swift in Sources */,
+				41F403D324D07C3C00E88B48 /* TokenStorage.swift in Sources */,
 				411059EA24C89E0400AFE48F /* AddController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

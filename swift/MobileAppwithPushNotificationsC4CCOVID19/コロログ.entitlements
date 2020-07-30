@@ -4,5 +4,9 @@
 <dict>
 	<key>aps-environment</key>
 	<string>development</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)jp.co.hitachi.rdg.c4c-2020-covid19.corolog</string>
+	</array>
 </dict>
 </plist>

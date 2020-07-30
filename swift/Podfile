@@ -6,6 +6,7 @@ target 'MobileAppwithPushNotificationsC4CCOVID19' do
     pod 'BMSPush', '~> 3.0'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+    pod 'IBMCloudAppID'
 
   # Pods for MobileAppwithPushNotificationsC4CCOVID19
 

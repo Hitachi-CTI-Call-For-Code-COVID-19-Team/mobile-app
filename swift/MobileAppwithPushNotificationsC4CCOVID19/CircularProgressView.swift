@@ -67,11 +67,11 @@ class CircularProgressView: UIView {
         
         textLayer.font = UIFont(name: "HelveticaNeue-Light", size: 30)
         textLayer.frame = CGRect(x: 0, y: 0, width:frame.size.width * 2, height: frame.size.height)
-        textLayer.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2 )
+        textLayer.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 4 * 3)
         textLayer.string = String(0)
         textLayer.foregroundColor = UIColor.systemTeal.cgColor
         textLayer.contentsScale = UIScreen.main.scale
-        textLayer.fontSize = 80
+        textLayer.fontSize = 50
         textLayer.alignmentMode = CATextLayerAlignmentMode.center
         //textLayer.isHidden = false
         layer.addSublayer(textLayer)
@@ -98,7 +98,23 @@ class CircularProgressView: UIView {
         animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         textLayer.string = String(Int(value))
         progressLayer.add(animation, forKey: "animateprogress")
-        
+    }
+    
+    func setText(text: String) {
+        textLayer.string = text
+        if (text.contains("HIGH")) {
+            textLayer.foregroundColor = UIColor.red.cgColor
+            progressLayer.strokeColor = UIColor.red.cgColor
+        } else if (text.contains("ACCEPTABLE")) {
+            textLayer.foregroundColor = UIColor.yellow.cgColor
+            progressLayer.strokeColor = UIColor.yellow.cgColor
+        } else if (text.contains("LOW")) {
+            textLayer.foregroundColor = UIColor.green.cgColor
+            progressLayer.strokeColor = UIColor.green.cgColor
+        } else {
+            textLayer.foregroundColor = UIColor.darkGray.cgColor
+            progressLayer.strokeColor = UIColor.darkGray.cgColor
+        }
     }
 
 }

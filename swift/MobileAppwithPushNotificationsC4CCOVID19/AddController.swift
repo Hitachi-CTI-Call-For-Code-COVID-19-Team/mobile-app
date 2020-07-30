@@ -22,7 +22,6 @@ class AddController: UIViewController, UITextFieldDelegate {
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // キーボードを閉じる処理
         self.view.endEditing(true)
         Messages.append(MessageTextField.text!)
         MessageTextField.text = ""

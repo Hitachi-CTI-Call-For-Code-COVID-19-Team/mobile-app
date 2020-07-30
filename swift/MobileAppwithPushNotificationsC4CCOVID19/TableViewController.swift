@@ -8,6 +8,9 @@
 
 import UIKit
 
+var Status = "undefined"
+
+
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     // UITableView, numberOfRowsInSectionの追加(表示するCell数を決める)
@@ -39,11 +42,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // Do any additional setup after loading the view.
     }
     
-    /*override func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
-    }*/
-    
+    }
     @objc func userDefaultsDidChange(_ notification: Notification) {
         tableView.reloadData()
     }
