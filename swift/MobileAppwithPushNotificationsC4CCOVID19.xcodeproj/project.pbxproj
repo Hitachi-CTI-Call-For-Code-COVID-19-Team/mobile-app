@@ -13,7 +13,6 @@
 		411059EA24C89E0400AFE48F /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059E924C89E0400AFE48F /* AddController.swift */; };
 		411059EC24C8A26D00AFE48F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059EB24C8A26D00AFE48F /* TableViewController.swift */; };
 		411059EE24C9D7D300AFE48F /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059ED24C9D7D300AFE48F /* CircularProgressView.swift */; };
-		411059F024CB4F8500AFE48F /* AppDelegate_back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411059EF24CB4F8500AFE48F /* AppDelegate_back.swift */; };
 		41F403D124CDDD8500E88B48 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D024CDDD8500E88B48 /* AccountViewController.swift */; };
 		41F403D324D07C3C00E88B48 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D224D07C3C00E88B48 /* TokenStorage.swift */; };
 		41F403D524D07C6D00E88B48 /* SigninDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F403D424D07C6D00E88B48 /* SigninDelegate.swift */; };
@@ -440,7 +439,6 @@
 				555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */,
 				411059EC24C8A26D00AFE48F /* TableViewController.swift in Sources */,
 				411059EE24C9D7D300AFE48F /* CircularProgressView.swift in Sources */,
-				411059F024CB4F8500AFE48F /* AppDelegate_back.swift in Sources */,
 				41F403DD24D31D8100E88B48 /* TabBarController.swift in Sources */,
 				41F403D324D07C3C00E88B48 /* TokenStorage.swift in Sources */,
 				411059EA24C89E0400AFE48F /* AddController.swift in Sources */,
