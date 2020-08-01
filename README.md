@@ -1,6 +1,7 @@
 ## COVSAFE mobile-app
 
-
+<img src="img/1.png width="30%">
+<img src="img/2.png width="30%">
 
 
 ## How to Install and Setup
